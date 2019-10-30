@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
  counter = 0 
   while array[counter] do
-   puts array[value_to_find]
+    array[value_to_find]=array[counter]
     counter +=1
   end
   return array[value_to_find]
