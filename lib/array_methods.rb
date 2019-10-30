@@ -11,7 +11,7 @@ end
 
 def find_max_value(array)
   array.sort
-  return array.shift
+  return array.pop
 end
 
 def find_min_value(array)
